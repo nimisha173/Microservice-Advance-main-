@@ -19,8 +19,8 @@ public class DepartmentController {
         return departmentService.saveDepartment(department);
     }
     @GetMapping("/{id}")
-    public Department getdepartmentById(@PathVariable("id") Long departmentId){
-        log.info("Inside getdepartmentById method of DepartmentController");
-        return departmentService.getdepartmentById(departmentId);
+    public Department findByDepartmentId(@PathVariable("id") Long departmentId){
+        log.info("Inside findByDepartmentId method of DepartmentController");
+        return departmentService.findByDepartmentId(departmentId);
     }
 }

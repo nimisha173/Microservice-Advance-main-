@@ -1,14 +1,15 @@
-package com.example.UserService.vo;
+package com.UST.userservice.VO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class Department {
-    private long departmentId;
+    private Long departmentId;
     private String departmentName;
+    private String departmentAddress;
     private String departmentCode;
 }

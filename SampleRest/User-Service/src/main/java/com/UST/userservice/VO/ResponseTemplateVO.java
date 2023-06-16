@@ -1,13 +1,13 @@
-package com.example.UserService.vo;
+package com.UST.userservice.VO;
 
-import com.example.UserService.entity.User;
+import com.UST.userservice.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class ResponseTemplateVO {
     private User user;
     private Department department;
